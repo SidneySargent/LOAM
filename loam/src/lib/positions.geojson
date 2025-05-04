@@ -1,0 +1,20 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.345678,
+                    48.765432
+                ]
+            },
+            "properties": {
+                "name": "Balade",
+                "description": "Une description très intéressante",
+                "date": "02-05-2025"
+            }
+        }
+    ]
+}

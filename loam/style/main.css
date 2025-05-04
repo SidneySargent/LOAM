@@ -1,0 +1,258 @@
+/* =========================
+   BASE & TYPOGRAPHY
+   ========================= */
+   html, body{
+    height: 100%;
+    background: #ebf2fa;
+    font-family: Lato, sans-serif;
+    color: #323232;
+    /*color: #d8f3dc;*/
+    margin: 0;
+    position: relative;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+/* =========================
+   HEADER & FOOTER
+   ========================= */
+header{
+    height: 7.5%;
+    background-color: #427aa1;
+    padding: 10 0 10 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    position:absolute;
+    height:7.5%;
+    bottom:0;
+    left:0;
+    width:100%;
+    background: #427aa1;
+}
+
+header,footer {
+    color: #ebf2fa;
+}
+
+/* =========================
+   FORMS & FIELDSETS
+   ========================= */
+fieldset{
+    height: 80%;
+    margin: 0;
+    border: 0;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.login{
+    width: 100%;
+    padding: 0 20% 0 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form, form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+label{
+    padding-bottom: 20px;
+}
+
+input[type="number"]{
+    text-align: center;
+}
+
+input, textarea{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+textarea{
+    min-height: 150px;
+}
+
+button{
+    
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: auto;
+    padding: 10 20 10 20;
+    background-color: #a5be00;
+    color: #183a37;
+    border: #679436;
+    border-radius: 20px;
+}
+
+/* =========================
+   HEADINGS & TEXT
+   ========================= */
+h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p{
+    font-size: 16;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    margin-right: 50px;
+}
+
+a{
+    color: #ebf2fa;
+    text-decoration: solid;
+}
+
+/* =========================
+   NAVIGATION
+   ========================= */
+.navigation, .navigation div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* =========================
+   ANNOUNCEMENTS & TITLES
+   ========================= */
+.annoncement{
+    text-align: center;
+}
+
+.title{
+    font-size: 20px;
+    text-align: center;
+}
+
+/* =========================
+   ACCESSIBILITY & STATES
+   ========================= */
+.visually-hidden{
+    display: none;
+}
+
+.error_message {
+    background-color: #480000;
+    color: #ffb3b3;
+    border: 2px solid #900000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* =========================
+   SPECIAL BUTTONS
+   ========================= */
+.details_button{
+    background-color: #482e00;
+    color: #ffe3b3;
+    border: 2px solid #cc7a00;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.delete_button{
+    background-color: #480000;
+    color: #ffb3b3;
+    border: 2px solid #900000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* =========================
+   SPECIAL INPUTS
+   ========================= */
+.number_input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.number_input div{
+    width: 100%;
+}
+
+/* =========================
+   FRONT PAGE
+   ========================= */
+.frontpage{
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: 5%;
+    text-shadow: #1f1f1f 12px;
+}
+
+/* =========================
+   MAP INTERFACE
+   ========================= */
+
+.map_details{
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    color: #183a37;
+}
+
+.map_interface{
+    color: #183a37;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    /*background-color: #1f1f1f;*/
+    height: 90%; 
+}
+
+#map {
+    margin: 1%;
+    width: 60%;
+}
+
+.map_details {
+    margin: 1%;
+    width: auto;
+}
+
+.layers {
+    display: flex;
+    flex-direction:row;
+    margin: 10;
+}
+
+#info {
+    margin: 1% 1% 1% 0%;
+    width: 40%;
+}
+
+/* =========================
+   NEW LOCATION FORM
+   ========================= */
+#form_new_location {
+    display: none;
+}
+
+.new_location_form{
+    color: #183a37;
+    width:auto;
+    height: 70%;
+    overflow:auto;
+}
