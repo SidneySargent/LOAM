@@ -2,6 +2,7 @@
 Ongoing - En cours
 
 Langages : HTML, CSS, PHP, Javascript, SQL.
+Site hébergé grâce à XAMPP, et bientôt depuis un serveur Apache.
 API : MapBox
 
 
